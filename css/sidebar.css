@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: century gothic;
+
+}
+
+.me{
+    
+    margin: 0 0 20% 0;
+    img{
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        width: 100px;
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    p{
+        text-align: center;
+       
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.contenedor{
+    display: inline-block;
+        width: 200px;
+    background-color: rgb(240, 240, 255);
+    background-color: rgb(40, 40, 40);
+    padding: 0 2% 0 0;
+    height: 100vh;
+    
+}
+    
+
+.opciones{
+
+    margin: 5% 0 0 5%; 
+    padding: 5% 0 5% 5%;
+
+    img{
+        display: inline-block;
+        width: 30px;
+        vertical-align: middle;
+    }
+    p{
+        margin: 0 0 0 5%;
+        display: inline-block;
+        width: 80px;
+        vertical-align: middle;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.opciones:hover{
+    border-radius: 10px;
+    background-color: rgb(0, 170, 228);
+    
+}
