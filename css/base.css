@@ -60,9 +60,10 @@ body{
 .sidebar-nav{
 display: inline-block;
 position: fixed;
-width: 100vw;
+width: 100%;
 text-align: center;
-margin-top: 100vw;
+margin-top: 168vw;
+    
     
 }
 }
