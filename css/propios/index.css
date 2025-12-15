@@ -181,7 +181,7 @@ button:hover{
 }
 .banner{
     display: block;
-    background-image: url("recursos/img/banner/fondo3.jpg");
+    background-image: url("../../recursos/img/banner/fondo3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
