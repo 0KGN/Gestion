@@ -79,6 +79,7 @@ tr:hover {
             width: 80%;
             text-align: justify;
             margin-bottom: 5%;
+            font-size: 15px;
         }
 
         h2 {
@@ -91,6 +92,14 @@ tr:hover {
 
             td {
                 font-size: 10px;
+
+                button {
+                    font-size: 10px;
+                }
+            }
+
+            th {
+                font-size: 13px;
             }
 
             .logos {
@@ -105,7 +114,8 @@ tr:hover {
                 width: 40%;
 
             }
-            
+
+
 
         }
     }
