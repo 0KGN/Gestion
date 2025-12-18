@@ -65,4 +65,23 @@
             border-color: rgb(70, 70, 70);
             border-width: 1px;
         }
+}   
+
+@media (max-width:900px) {
+ 
+.add{
+.mensaje{
+    display: block;
+    width: 80%;
+    margin: 20% auto 0 auto;
+    p{
+        display: block;
+        width: 80%;
+        margin: 10% auto;
     }
+    h1{
+        margin-bottom: 10%;
+    }
+}
+}   
+}

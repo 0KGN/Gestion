@@ -50,3 +50,10 @@ h2{
         background-color: blue;
     }
 }
+@media (max-width:755px) {
+    .card{
+        display: block;
+        width: 90%;
+        margin: 5% auto 5% auto;
+    }
+}
