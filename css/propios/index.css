@@ -154,17 +154,20 @@
     }
 
 }
-.encabezado{
-    h2{
+
+.encabezado {
+    h2 {
         font-size: 30px;
         margin: 2%;
     }
 }
+
 .collage {
     display: block;
     margin: auto;
 }
-button{
+
+button {
     background: none;
     color: white;
     font-weight: bold;
@@ -173,18 +176,21 @@ button{
     border-radius: 5px;
     border-color: white;
 }
-button:hover{
+
+button:hover {
     background-color: rgba(255, 255, 255, 0.418);
 }
-*{
+
+* {
     text-decoration: none;
 }
-.banner{
+
+.banner {
     display: block;
     background-image: url("../../recursos/img/banner/fondo3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 180px;
     margin: auto;
@@ -192,3 +198,94 @@ button:hover{
 
 }
 
+@media (max-width:900px) {
+
+    .collage {
+        display: block;
+        width: 90%;
+        p{
+            font-size: 10px;
+        }
+
+
+        .c1 {
+            display: block;
+            width: 100%;
+            margin: 2% auto auto auto;
+            height: auto;
+            padding: 1% 0 3% 0;
+
+            h4 {
+                margin: 2% auto auto auto;
+
+            }
+
+            p {
+                margin: 2% auto auto auto;
+            }
+
+            button {
+                margin: 5% auto auto auto;
+            }
+        }
+
+        .c2 {
+            display: block;
+            width: 100%;
+            margin: 2% auto auto auto;
+            height: auto;
+            padding: 1% 0 3% 0;
+
+            .c2-1 {
+                h4 {
+                    margin: 2% auto auto auto;
+                    ;
+
+                }
+
+                p {
+                    margin: 5% auto auto auto;
+                    text-align: justify
+                }
+
+                button {
+                    display: block;
+                    width: 80%;
+                    margin: 15% auto auto auto;
+                    padding: 2% 15% 2% 15%;
+                }
+
+                .c2-1-1 {
+                    padding: 5% auto 5% auto;
+
+                    p {
+                        display: block;
+                        width: 85%;
+                        text-align: justify;
+                    }
+
+                }
+
+                .c2-1-2 {
+                    padding: 5% auto 5% auto;
+
+                    p {
+                        display: block;
+                        width: 85%;
+                        text-align: justify;
+                    }
+                }
+
+            }
+
+        }            
+            .c2-2{
+                    p{
+                        display: block;
+                        width: 80%;
+                        text-align: justify;
+                        margin: 3% auto 0 auto;
+                    }
+                }
+    }
+}
